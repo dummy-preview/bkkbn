@@ -778,6 +778,12 @@ li.menu-item.current-menu-item {
     line-height: 28px;
     color: #ffffff;
     cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+.hero-btn1 button:hover {
+    transform: scale(.96)
 }
 
 .hero-btn2 button {
@@ -794,6 +800,12 @@ li.menu-item.current-menu-item {
     line-height: 28px;
     color: #0066AB;
     cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+.hero-btn2 button:hover {
+    transform: scale(.96)
 }
 
 .hero__logo {
